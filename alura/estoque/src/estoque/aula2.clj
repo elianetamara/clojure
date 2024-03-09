@@ -53,9 +53,7 @@
   "Retorna o valor com desconto de 10%."
   [valor-bruto]
   (let [desconto 0.10]
-    (* valor-bruto (- 1 desconto))
-    )
-  )
+    (* valor-bruto (- 1 desconto))))
 
 (valor-descontado 100)
 
@@ -66,9 +64,7 @@
   [valor-bruto]
   (let [desconto 0.10]
     (println "Calculando desconto de " desconto)
-    (* valor-bruto (- 1 desconto))
-    )
-  )
+    (* valor-bruto (- 1 desconto))))
 
 (valor-descontado 100)
 
@@ -82,13 +78,9 @@
     let [desconto 0.10]
     (
       println "Calculando desconto de " desconto)
-    (* valor-bruto (- 1 desconto))
-    )
-  )
+    (* valor-bruto (- 1 desconto))))
 
 (valor-descontado 100)
-
-
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10%."
@@ -99,11 +91,7 @@
 
 (valor-descontado 100)
 
-
-
 (class 90.0)
-
-
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10%."
@@ -114,12 +102,8 @@
 
 (valor-descontado 100)
 
-
-
 (class 90N)
 (class 90M)
-
-
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10%."
@@ -131,8 +115,6 @@
 
 (valor-descontado 100)
 
-
-
 (> 500 100)
 (< 500 100)
 
@@ -143,8 +125,6 @@
 (if (> 50 100)
   (println "maior")
   (println "menor ou igual"))
-
-
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10% se o valor bruto for estritamente maior que 100."
@@ -158,8 +138,6 @@
 (valor-descontado 1000)
 
 (valor-descontado 1000)
-
-
 
 (defn valor-descontado
   "Retorna o valor com desconto de 10% se o valor bruto for estritamente maior que 100."
