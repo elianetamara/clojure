@@ -1,4 +1,4 @@
-(ns curso-nufuturo.formas_especiais)
+(ns curso-nufuturo.aula01.formas_especiais)
 
 (fn [a b c]
     (- (* b b) (* 4 a c)))

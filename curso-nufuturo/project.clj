@@ -5,4 +5,4 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojure/tools.logging "1.1.0"]]
-  :repl-options {:init-ns curso-nufuturo.hello_world})
+  :repl-options {:init-ns curso-nufuturo.aula01.aula01.hello_world})

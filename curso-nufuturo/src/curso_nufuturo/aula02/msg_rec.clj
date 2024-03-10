@@ -1,4 +1,4 @@
-(ns curso_nufuturo.msg_rec)
+(ns curso-nufuturo.aula02.msg_rec)
 (defn msg-rec [msg]
   (println msg)
   (msg-rec msg))

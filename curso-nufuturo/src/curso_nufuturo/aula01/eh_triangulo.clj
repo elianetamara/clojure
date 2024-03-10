@@ -1,4 +1,4 @@
-(ns curso-nufuturo.eh_triangulo)
+(ns curso-nufuturo.aula01.eh_triangulo)
 
 (defn eh_triangulo [a b c]
       (let [bc (< a (+ b c)) ac (< b (+ a c)) ab (< c (+ a b))]

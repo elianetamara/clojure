@@ -1,4 +1,4 @@
-(ns curso_nufuturo.conta_rec)
+(ns curso-nufuturo.aula02.conta_rec)
 
 (defn conta-rec [num]
   (println num)

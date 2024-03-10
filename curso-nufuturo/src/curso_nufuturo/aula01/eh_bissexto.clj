@@ -1,4 +1,4 @@
-(ns curso-nufuturo.eh_bissexto)
+(ns curso-nufuturo.aula01.eh_bissexto)
 
 (defn eh_bissexto [ano]
       (let [div400 (= (mod ano 400) 0)

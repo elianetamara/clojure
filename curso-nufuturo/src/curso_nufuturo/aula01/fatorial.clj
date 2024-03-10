@@ -1,4 +1,4 @@
-(ns curso-nufuturo.fatorial)
+(ns curso-nufuturo.aula01.fatorial)
 
 (defn fat [n]
       (if (= n 1)

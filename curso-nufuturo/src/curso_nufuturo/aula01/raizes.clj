@@ -1,4 +1,4 @@
-(ns curso-nufuturo.raizes)
+(ns curso-nufuturo.aula01.raizes)
 (require '[clojure.math :as math])
 
 (defn delta [a b c]

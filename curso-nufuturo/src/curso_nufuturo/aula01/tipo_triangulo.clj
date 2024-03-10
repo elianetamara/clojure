@@ -1,4 +1,4 @@
-(ns curso-nufuturo.tipo_triangulo)
+(ns curso-nufuturo.aula01.tipo_triangulo)
 
 (defn equilatero [a b c]
       (if (= a b c) true false))
