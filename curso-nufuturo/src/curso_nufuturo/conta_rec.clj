@@ -4,7 +4,7 @@
   (println num)
   (conta-rec (+ num 1)))
 
-(def conta (conta-rec 0))
+(defn conta [] (conta-rec 0))
 
 (conta)
 
@@ -12,3 +12,14 @@
 ; função que contém a lógica recuriva para imprimir os números,
 ; passando como parâmetro o num que vai sendo atualizado na execução. Por
 ; não ter condição de parada, acontece um erro de stackOverFlow ao executar
+
+(comment
+  ; função com diferentes aridades
+  (defn conta
+    ([] (conta 0))
+    ([num]
+     (println num)
+     (conta (+ num 1))))
+
+  (println (conta 10))
+  (println (conta)))
