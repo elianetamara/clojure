@@ -15,3 +15,4 @@
             (isosceles a b c) :isosceles
             (escaleno a b c) :escaleno
             :else nil))
+(println (tipo_triangulo (read) (read) (read)))
