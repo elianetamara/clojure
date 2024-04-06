@@ -1,4 +1,4 @@
-(ns curso_nufuturo.aula3.resp07)
+(ns curso_nufuturo.aula03.resp07)
 (require '[clojure.string :as str])
 
 (defn aux-ini-vogais [string]

@@ -1,4 +1,4 @@
-(ns curso_nufuturo.aula3.resp03)
+(ns curso_nufuturo.aula03.resp03)
 
 (defn somador [operador]
   (fn processo [seq]

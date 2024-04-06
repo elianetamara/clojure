@@ -1,4 +1,4 @@
-(ns curso_nufuturo.aula3.resp08)
+(ns curso_nufuturo.aula03.resp08)
 
 (defn soma-quadrados-de-pares [sq]
   (reduce +

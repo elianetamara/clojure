@@ -1,4 +1,4 @@
-(ns curso_nufuturo.aula3.resp06)
+(ns curso_nufuturo.aula03.resp06)
 
 (defn fahr-celsius [sq]
   (map (fn [n] (format "%.1f" (/ (- n 32) 1.8))) sq))

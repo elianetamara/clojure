@@ -1,8 +1,11 @@
-(ns curso_nufuturo.aula3.resp05)
+(ns curso_nufuturo.aula03.resp04)
 
 (defn somador [op]
   (fn [sq]
-    (reduce + (map op sq))))
+    (loop [sq sq tot 0]
+      (if (empty? sq)
+        tot
+        (recur (rest sq) (+ tot (op (first sq))))))))
 
 (def soma-cubos (somador (fn [x] (* x x x))))
 (def soma-pares (somador (fn [x] (if (even? x) x 0))))

@@ -1,4 +1,4 @@
-(ns curso_nufuturo.aula3.resp02)
+(ns curso_nufuturo.aula03.resp02)
 
 (defn length [s]
   (if (empty? s)
